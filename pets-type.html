@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Herag</title>
+
+    <link rel="icon" type="image/x-icon" href="images/Mask Group 2.png" />
+
+    <!-- Bootstrap link  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+      />
+
+    <!-- font awesom link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/country-select-js/2.1.1/css/countrySelect.min.css" integrity="sha512-HHSUgqDtmyVfGT0pdLVRKcktf9PfLMfFzoiBjh9NPBzw94YFTS5DIwZ12Md/aDPcrkOstXBp9uSAOCl5W2/AOQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <!-- owl-carousel link -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+    <!-- rateyo link -->
+    <link rel="stylesheet" href="css/jquery.rateyo.min.css" />
+
+   <!-- aos link -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
+    <!-- WoW link -->
+    <link rel="stylesheet" href="css/animate.css" />
+
+    <!-- animate link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/panzoom.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+
+  </head>
+  <body>
+    <!-- -------- loading ----------- -->
+    <div id="loading">
+      <div class="loader">
+        <img src="images/Mask Group 2.png" alt="" />
+        <h5 class="px-2">Harag</h5>
+      </div>
+    </div>
+    <!-- -------- loading ends ----------- -->
+    <!-- -------- scroll top ----------- -->
+    <a href="javascript:void(0)" id="scroll-top">
+      <i class="bi bi-chevron-up"></i>
+    </a>
+    <!-- -------- scroll top ends ----------- -->
+<!-- navbar -->
+    <nav>
+        <div class="collect">
+            <div class="overlay"></div>
+            <div class="top-nav">
+                <div class="container-lg d-flex flex-md-row  align-items-center justify-content-between">
+                    <ul class="right flex-lg-row flex-column text-center text-md-end">
+                        <li>
+                            
+                            <span><i class="bi bi-telephone-fill"></i> +997-895672</span>
+                        </li>
+                    </ul>
+                    <ul class="left">
+                     
+                
+                     
+                    <li> 
+                      <input id="country_selector" >
+                    </li>
+                        <li>
+                            <select id="country">
+                                <option value="selected" >
+                                       
+                                        English
+                                    </option>
+                                <option value="2">
+                                    
+                                    arbic</option>
+                           </select>
+                       
+                         
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="middle-nav">
+                <div class="container-lg d-flex flex-sm-row flex-column   align-items-center justify-content-between">
+                    <div class="col-0 col-lg-3">
+                      <a href="index.html">
+                        <div class="logo">
+                            <img src="images/Mask Group 2.png" alt="">
+                            <h2>Harag</h2>
+                        </div>
+                      </a>
+                       
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-5 ">
+                     
+                        <div class="search-box">
+                      
+                            <input type="search" placeholder="Search For Car, Fashion, Home...">
+                            <button>  <i class="bi bi-search"></i></button>
+                        </div>
+                   
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 ">
+                        <ul class=" d-flex align-items-center justify-content-evenly">
+                          <li class="theme-color" id="theme"></li>
+                            <li class="chat">
+                              <a href="./chat.html">
+                                <i class="fa-regular fa-comment text-white"></i>
+                              </a>
+                           </li>
+                            <li class="top-nav-user">
+                                <a href="javascript:void(0)" class="d-flex align-items-center has-menu text-white">
+                                  <img src="./images/avatar.png" alt="">
+                                  <i class="fa-solid fa-chevron-down px-2"></i>
+                                </a>
+                                <div class="sub-menu">
+                                    <a href="profile.html">
+                                        الملف الشخصي 
+                                    </a>
+                                    <button >تسجيل خروج</button>
+                                </div>
+                            </li> 
+                            <li class="add-product" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <i class="bi bi-plus-lg"></i>
+                                <span>Add Product</span> 
+                               
+                            </li>
+                        </ul>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+       <div class="bottom-nav">
+        <div class="container">
+            <ul
+            class="nav-links wow animate__animated animate__fadeInRight
+            animate__slow">
+                <li>
+                    <a href="./Vehical.html" > Vehicles</a>
+                </li>
+                <li>
+                    <a href="realesteat.html">Real Esteat</a>
+                </li>
+                <li>
+                    <a href="furniture.html" > Furniture </a>
+                </li>
+                <li>
+                    <a href="beauty.html" >Fashion & Beauty</a>
+                </li>
+                <li>
+                    <a href="electronics.html" >Electronics</a>
+                </li>
+                <li>
+                    <a href="pets.html" class="active">Pets & Accessiores</a>
+                </li>
+                <li>
+                    <a href="baby.html" >Baby Supplies</a>
+                </li>
+                <li>
+                    <a href="jobs.html">Jobs</a>
+                </li>
+                <li>
+                    <a href="services.html">Services</a>
+                </li>
+            </ul> 
+            <div class="d-flex align-items-center justify-content-between">
+              <a  href="index.html">
+              <div class="logo-small">
+                    <img src="images/Mask Group 2.png" alt="">
+                    <h2>Harag </h2>
+        </div>
+      </a>
+                    <button
+                        class="toggle-side-menu"
+                        type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasBottom"
+                        aria-controls="offcanvasBottom">
+                        <i class="bi bi-list"></i>
+                    </button>
+            </div>
+         
+        
+        </div>
+      
+       </div>
+    </nav>
+    <!-- sub menu navbar small screen -->
+    <div
+        class="offcanvas offcanvas-bottom side-menu-nav"
+        tabindex="-1"
+        id="offcanvasBottom"
+        aria-labelledby="offcanvasBottomLabel">
+        <div class="offcanvas-header">
+        <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body large">
+        <ul class="nav-links">
+            <li>
+                <a href="Vehical.html" > Vehicles</a>
+            </li>
+            <li>
+                <a href="realesteat.html">Real Esteat</a>
+            </li>
+            <li>
+                <a href="furniture.html" > Furniture </a>
+            </li>
+            <li>
+                <a href="beauty.html" >Fashion & Beauty</a>
+            </li>
+            <li>
+                <a href="electronics.html" >Electronics</a>
+            </li>
+            <li>
+                <a href="pets.html" class="active">Pets & Accessiores</a>
+            </li>
+            <li>
+                <a href="baby.html" >Baby Supplies</a>
+            </li>
+            <li>
+                <a href="jobs.html">Jobs</a>
+            </li>
+            <li>
+                <a href="services.html">Services</a>
+            </li>
+        </ul>
+        <a href="index.html">
+        <div class="logo">
+            <img src="images/Mask Group 2.png" alt="">
+        </div>
+      </a>
+        </div>
+    </div>
+
+    <!------------- breadcrumb -------------->
+    <div>
+      <div class="container">
+        <div class="d-flex align-items-center py-4 breadcrumb">
+          <a href="index.html" class="text-muted">Home </a>
+          <i class="bi bi-chevron-right mx-1 text-muted"></i>
+          <a href="furniture.html" class="text-muted"> Pets & Accessiores </a>
+          <i class="bi bi-chevron-right mx-1 text-muted"></i>
+          <a href="Furniture-type.html" class="text-muted">Pets & Accessiores Types </a>
+          <i class="bi bi-chevron-right mx-1 text-muted"></i>
+          <h6> Cats</h6>
+        </div>
+      </div>
+    </div>
+    <!-- category -->
+    <section class="vehical vehical-tt">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-1 toggel-col">
+            <div class="sort">
+              <form action="">
+                <div class="category-sort">
+                  <h5>CATEGORIES</h5>
+                  <input type="checkbox" id="fur" name="fur" />
+                  <label for="fur"> cat </label><br />
+                  <input type="checkbox" id="fur1" name="fur1" />
+                  <label for="fur1"> food   </label><br />
+                  <input type="checkbox" id="fur2" name="fur2" />
+                  <label for="fur2">Supplies and Accessiores  </label><br />
+              
+                </div>
+              
+                <div class="category-sort">
+                    <h5>CONDITION</h5>
+                    <input type="checkbox" id="conditio1" name="conditio1" />
+                    <label for="conditio1"> male </label><br />
+                    <input type="checkbox" id="conditio2" name="conditio2" />
+                    <label for="conditio2"> female </label><br />
+                  </div>
+              
+                  <div class="category-sort">
+                    <h5>PRICE</h5>
+                    <div class="d-flex justify-content-around">
+                      <input
+                        type="number"
+                        placeholder="0"
+                        min="100000000"
+                        max="0"
+                        id="price1"
+                        name="price1"
+                      />
+                      <input
+                        type="number"
+                        placeholder="0"
+                        min="100000000"
+                        max="100000000"
+                        id="price2"
+                        name="price2"
+                      />
+                    </div>
+                  </div>
+              </form>
+            </div>
+            <button
+              class="toggle-sort-menu"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvastop"
+              aria-controls="offcanvastop"
+            >
+              <i class="bi bi-list"></i>
+            </button>
+          </div>
+          <div class="col-md-9 col-11">
+            <div class="select-sort">
+              <form action="" class="form">
+                <div class="select my-2">
+                  <label for="BRAND">1</label>
+                  <select name="" id="BRAND">
+                    <option value="selected">SELECT TYPE </option>
+                    <option value="">SELECT BRAND</option>
+                    <option value="">SELECT BRAND</option>
+                  </select>
+                </div>
+                <div class="select my-2">
+                  <label for="MODEL">2</label>
+                  <select name="" id="MODEL">
+                    <option value="selected">BEDROOMS </option>
+                    <option value="">BEDROOMS </option>
+                    <option value="">BEDROOMS </option>
+                  </select>
+                </div>
+                <div class="select my-2">
+                  <label for="YEAR">3</label>
+                  <select name="" id="YEAR">
+                    <option value="selected">BATHROOMS </option>
+                    <option value="">BATHROOMS </option>
+                    <option value="">BATHROOMS </option>
+                  </select>
+                </div>
+
+                <button class="text-center rounded-2">SEARCH</button>
+              </form>
+            </div>
+
+            <div class="head-title py-2">
+              <h3 class="">Brand New & Used Car For Sale In Egypt</h3>
+              <div class="d-flex align-items-center">
+                <ul
+                  class="nav nav-tabs border-0 align-items-center px-md-2 px-0"
+                  id="myTab"
+                  role="tablist"
+                >
+                  <li class="pe-2">View as</li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link active border-0"
+                      id="home-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#home-tab-pane"
+                      type="button"
+                      role="tab"
+                      aria-controls="home-tab-pane"
+                      aria-selected="true"
+                    >
+                      <i class="bi bi-grid"></i>
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link border-0"
+                      id="profile-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#profile-tab-pane"
+                      type="button"
+                      role="tab"
+                      aria-controls="profile-tab-pane"
+                      aria-selected="false"
+                    >
+                      <i class="bi bi-list-task"></i>
+                    </button>
+                  </li>
+                </ul>
+
+                <label for="sort">SORT BY:</label>
+                <select name="" id="sort">
+                  <option value="selected">Lowest price</option>
+                  <option value="">Lowest price</option>
+                  <option value="">Lowest price</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="tab-content" id="myTabContent">
+              <div
+                class="tab-pane fade show active"
+                id="home-tab-pane"
+                role="tabpanel"
+                aria-labelledby="home-tab"
+                tabindex="0"
+              >
+              <div class="row">
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="card" >
+                      <img src="./images/pet10.png" class="image-card" alt="...">
+                      <div class="card-body">
+                        <a class="link" href="single-pets.html"></a>
+                        <p class="sub-title">Pets & Accessiores</p>
+                      <h5 class="card-title">Colorful Little Bird </h5>
+                      <p class="card-text"><i class="bi bi-geo-alt"></i> New Capital, Cairo</p>
+                      <div class="model my-2">
+                     </div>
+                      <h5 class="price">EGP500.00</h5>
+                    </div>
+                    </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-12">
+                  <div class="card" >
+                      <img src="./images/category-3.png" class="image-card" alt="...">
+                      <div class="card-body">
+                        <a class="link" href="single-pets.html"></a>
+                        <p class="sub-title">Pets & Accessiores</p>
+                      <h5 class="card-title">Colorful Little Bird </h5>
+                      <p class="card-text"><i class="bi bi-geo-alt"></i> New Capital, Cairo</p>
+                      <div class="model my-2">
+                      </div>
+                      <h5 class="price">EGP500.00</h5>
+                    </div>
+                    </div>
+              </div>
+              <div class=" col-lg-4 col-md-6 col-12">
+                  <div class="card" >
+                      <img src="./images/category-9.png" class="image-card" alt="...">
+                      <div class="card-body">
+                        <a class="link" href="single-pets.html"></a>
+                        <p class="sub-title">Pets & Accessiores</p>
+                      <h5 class="card-title">Colorful Little Bird </h5>
+                      <p class="card-text"><i class="bi bi-geo-alt"></i> New Capital, Cairo</p>
+                      <div class="model my-2">
+                      </div>
+                      <h5 class="price">EGP500.00</h5>
+                    </div>
+                    </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-12">
+                  <div class="card" >
+                      <img src="./images/category-10.png" class="image-card" alt="...">
+                      <div class="card-body">
+                        <a class="link" href="single-pets.html"></a>
+                        <p class="sub-title">Pets & Accessiores</p>
+                      <h5 class="card-title">Colorful Little Bird </h5>
+                      <p class="card-text"><i class="bi bi-geo-alt"></i> New Capital, Cairo</p>
+                      <div class="model my-2">
+                   </div>
+                      <h5 class="price">EGP500.00</h5>
+                    </div>
+                    </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="card" >
+                    <img src="./images/pet10.png" class="image-card" alt="...">
+                    <div class="card-body">
+                      <a class="link" href="single-pets.html"></a>
+                      <p class="sub-title">Pets & Accessiores</p>
+                    <h5 class="card-title">Colorful Little Bird </h5>
+                    <p class="card-text"><i class="bi bi-geo-alt"></i> New Capital, Cairo</p>
+                    <div class="model my-2">
+                   </div>
+                    <h5 class="price">EGP500.00</h5>
+                  </div>
+                  </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card" >
+                    <img src="./images/category-3.png" class="image-card" alt="...">
+                    <div class="card-body">
+                      <a class="link" href="single-pets.html"></a>
+                      <p class="sub-title">Pets & Accessiores</p>
+                    <h5 class="card-title">Colorful Little Bird </h5>
+                    <p class="card-text"><i class="bi bi-geo-alt"></i> New Capital, Cairo</p>
+                    <div class="model my-2">
+                    </div>
+                    <h5 class="price">EGP500.00</h5>
+                  </div>
+                  </div>
+            </div>
+            <div class=" col-lg-4 col-md-6 col-12">
+                <div class="card" >
+                    <img src="./images/category-9.png" class="image-card" alt="...">
+                    <div class="card-body">
+                      <a class="link" href="single-pets.html"></a>
+                      <p class="sub-title">Pets & Accessiores</p>
+                    <h5 class="card-title">Colorful Little Bird </h5>
+                    <p class="card-text"><i class="bi bi-geo-alt"></i> New Capital, Cairo</p>
+                    <div class="model my-2">
+                    </div>
+                    <h5 class="price">EGP500.00</h5>
+                  </div>
+                  </div>
+            </div>
+            <div class=" col-lg-4 col-md-6 col-12">
+                <div class="card" >
+                    <img src="./images/category-10.png" class="image-card" alt="...">
+                    <div class="card-body">
+                      <a class="link" href="single-pets.html"></a>
+                      <p class="sub-title">Pets & Accessiores</p>
+                    <h5 class="card-title">Colorful Little Bird </h5>
+                    <p class="card-text"><i class="bi bi-geo-alt"></i> New Capital, Cairo</p>
+                    <div class="model my-2">
+                 </div>
+                    <h5 class="price">EGP500.00</h5>
+                  </div>
+                  </div>
+            </div>
+           
+         
+              </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="profile-tab-pane"
+                role="tabpanel"
+                aria-labelledby="profile-tab"
+                tabindex="0"
+              >
+              <div class="row">
+                <div class=" col-lg-6 col-12">
+                  <div class="card p-0">
+                    <div class="row ">
+                      <div class="col-4 pe-0">
+                        <img src="./images/pet10.png" class="img-fluid h-100" alt="...">
+                      </div>
+                      <div class="col-8 ps-0">
+                        <div class="card-body">
+                            <a class="link" href="single-pets.html"></a>
+                            <p class="sub-title">Pets & Accessiores</p>
+                          <h5 class="card-title">Colorful Little Bird </h5>
+                          <p class="card-text"><i class="bi bi-geo-alt"></i> New Capital, Cairo</p>
+                          <div class="model my-2">
+                        </div>
+                          <h5 class="price">EGP500.00</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class=" col-lg-6 col-12">
+                <div class="card p-0">
+                  <div class="row ">
+                    <div class="col-4 pe-0">
+                      <img src="./images/category-3.png" class="img-fluid h-100" alt="...">
+                    </div>
+                    <div class="col-8 ps-0">
+                        <div class="card-body">
+                            <a class="link" href="single-pets.html"></a>
+                            <p class="sub-title">Pets & Accessiores</p>
+                          <h5 class="card-title">Colorful Little Bird </h5>
+                          <p class="card-text"><i class="bi bi-geo-alt"></i> New Capital, Cairo</p>
+                          <div class="model my-2">
+                        </div>
+                          <h5 class="price">EGP500.00</h5>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class=" col-lg-6 col-12">
+              <div class="card p-0">
+                <div class="row ">
+                  <div class="col-4 pe-0">
+                    <img src="./images/category-9.png" class="img-fluid h-100" alt="...">
+                  </div>
+                  <div class="col-8 ps-0">
+                    <div class="card-body">
+                        <a class="link" href="single-pets.html"></a>
+                        <p class="sub-title">Pets & Accessiores</p>
+                      <h5 class="card-title">Colorful Little Bird </h5>
+                      <p class="card-text"><i class="bi bi-geo-alt"></i> New Capital, Cairo</p>
+                      <div class="model my-2">
+                     </div>
+                      <h5 class="price">EGP500.00</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class=" col-lg-6 col-12">
+            <div class="card p-0">
+              <div class="row ">
+                <div class="col-4 pe-0">
+                  <img src="./images/category-10.png" class="img-fluid h-100" alt="...">
+                </div>
+                <div class="col-8 ps-0">
+                    <div class="card-body">
+                        <a class="link" href="single-pets.html"></a>
+                        <p class="sub-title">Pets & Accessiores</p>
+                      <h5 class="card-title">Colorful Little Bird </h5>
+                      <p class="card-text"><i class="bi bi-geo-alt"></i> New Capital, Cairo</p>
+                      <div class="model my-2">
+                    </div>
+                      <h5 class="price">EGP500.00</h5>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- sub menu navbar small screen -->
+    <div
+      class="offcanvas offcanvas-top toggle-sort-menu"
+      tabindex="-1"
+      id="offcanvastop"
+      aria-labelledby="offcanvastopLabel"
+    >
+      <div class="offcanvas-header">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body large"></div>
+    </div>
+
+    <footer class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="brand col-12 col-sm-6 col-md-3 px-0">
+            <a  href="index.html">
+            <div class="logo">
+              <img src="images/Mask Group 2.png" alt="" />
+              <h4 class="px-lg-2 px-0 text-white">Herag</h4>
+            </div>
+            </a>
+            <ul>
+              <li>Get Question? cLL US 24/7</li>
+              <li>1-800-570-777</li>
+              <li>SUBSCRIBE TO OUR NEWSLETER</li>
+            </ul>
+            <form action="" class="me-lg-4 me-0">
+              <input
+                type="text"
+                class="form-control p-2"
+                placeholder="Your E-mail Address"
+              />
+              <button class="text-center w-100 rounded-2 p-2 my-2">
+                SUBSCRIBE
+              </button>
+            </form>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <h3 class="pb-2">MY ACCOUNT</h3>
+            <ul>
+              <li>Account Details</li>
+              <li>My Order</li>
+              <li>My Portfolio</li>
+              <li>Whishlist</li>
+              <li>My Packages</li>
+              <li>My Ads</li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <h3 class="pb-2">SERVICES</h3>
+            <ul>
+              <li> <a href="./Vehical.html" class="text-white">Vehicles</a> </li>
+            <li><a href="./realesteat.html" class="text-white">Real Esteat</a></li>
+            <li><a href="./furniture.html" class="text-white">Furniture</a></li>
+            <li><a href="./beauty.html" class="text-white">Fashion & Beauty</a></li>
+            <li><a href="./electronics.html" class="text-white">Electronics</a></li>
+            <li><a href="./pets.html" class="text-white">Pets & Accessiores</a></li>
+            <li><a href="./baby.html" class="text-white">Baby Supplies</a></li>
+            <li><a href="./jobs.html" class="text-white">Jobs</a></li>
+            <li><a href="./services.html" class="text-white">Services</a></li>
+         
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <h3 class="pb-2">CONTUCT INFO</h3>
+            <ul>
+              <li>Phone: <span>+97725495626</span></li>
+              <li>Email: <span>Username@Gmail.Com</span></li>
+              <li>Adresses: <span>Enter Adresses Here</span></li>
+              <li>
+                <p>
+                  <i
+                    class="fa-brands fa-facebook-f icon"
+                    style="padding: 8px 12px"
+                  ></i>
+                  <i class="fa-brands fa-twitter icon"></i>
+                  <i class="fa-brands fa-instagram icon"></i>
+                  <i class="fa-solid fa-phone icon"></i>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Modal -->
+<div class="add-new modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Add a New Ad</h1>
+      </div>
+      <div class="modal-body">
+        <h5 class="p-4 pb-2">
+          CHOOSE A CATEGORY
+        </h5>
+<div class="d-flex">
+  <nav>
+    <div class="nav nav-tabs d-flex flex-column" id="nav-tab" role="tablist">
+      <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Vehicles <i class="bi bi-chevron-right"></i></button>
+      <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Real Esteat <i class="bi bi-chevron-right"></i></button>
+      <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Furniture <i class="bi bi-chevron-right"></i></button>
+      <button class="nav-link" id="nav-fur-tab" data-bs-toggle="tab" data-bs-target="#nav-fur" type="button" role="tab" aria-controls="nav-fur" aria-selected="false">Fashion & Beauty <i class="bi bi-chevron-right"></i></button>
+      <button class="nav-link" id="nav-pet-tab" data-bs-toggle="tab" data-bs-target="#nav-pet" type="button" role="tab" aria-controls="nav-pet" aria-selected="false">Pets & Accessiores <i class="bi bi-chevron-right"></i></button>
+      <button class="nav-link" id="nav-baby-tab" data-bs-toggle="tab" data-bs-target="#nav-baby" type="button" role="tab" aria-controls="nav-baby" aria-selected="false">Baby Supplies <i class="bi bi-chevron-right"></i></button>
+      <button class="nav-link" id="nav-trav-tab" data-bs-toggle="tab" data-bs-target="#nav-trav" type="button" role="tab" aria-controls="nav-trav" aria-selected="false">Travel & Tourism <i class="bi bi-chevron-right"></i></button>
+      <button class="nav-link" id="nav-job-tab" data-bs-toggle="tab" data-bs-target="#nav-job" type="button" role="tab" aria-controls="nav-job" aria-selected="false">Jobs <i class="bi bi-chevron-right"></i></button>
+      <button class="nav-link" id="nav-serv-tab" data-bs-toggle="tab" data-bs-target="#nav-serv" type="button" role="tab" aria-controls="nav-serv" aria-selected="false">Services <i class="bi bi-chevron-right"></i></button>
+    </div>
+  </nav>
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+ 
+   <ul>
+  <li type="button" data-bs-toggle="modal" data-bs-target="#exampleModal-car">Cars</li>
+  <li>Motorcycle</li>
+  <li>Buses</li>
+  <li>Transportation</li>
+  <li>Trucks</li>
+  <li>Naval Vehicles</li>
+  <li>Bikes</li>
+  </ul>
+    </div>
+    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">...</div>
+    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">...</div>
+    <div class="tab-pane fade" id="nav-fur" role="tabpanel" aria-labelledby="nav-fur-tab" tabindex="0">...</div>
+    <div class="tab-pane fade" id="nav-pet" role="tabpanel" aria-labelledby="nav-pet-tab" tabindex="0">...</div>
+    <div class="tab-pane fade" id="nav-baby" role="tabpanel" aria-labelledby="nav-baby-tab" tabindex="0">...</div>
+    <div class="tab-pane fade" id="nav-trav" role="tabpanel" aria-labelledby="nav-trav-tab" tabindex="0">...</div>
+    <div class="tab-pane fade" id="nav-job" role="tabpanel" aria-labelledby="nav-job-tab" tabindex="0">...</div>
+    <div class="tab-pane fade" id="nav-serv" role="tabpanel" aria-labelledby="nav-serv-tab" tabindex="0">...</div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal-car modal fade" id="exampleModal-car" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Add a New Ad</h1>
+      </div>
+      <div class="modal-body">
+     <div class="d-flex align-items-center title-form">
+      <img src="./images/vis-1.png" alt="" class="image-modal">
+      <p class="px-2"> Cars</p>
+     </div>
+<div class="form-detail my-4">
+  <h4>Inter Your Car Details</h4>
+  <form action="">
+    <div class="row py-4">
+      <div class="col-12 ">
+        <div class="form-group">
+          <label for="">
+            Add Title
+          </label>
+          <input class=" form-control" type="text" id="" >
+        </div>
+      </div>
+      <div class="col-12 ">
+        <div class="form-group">
+          <label for="">
+            Add Price
+          </label>
+          <input class=" form-control" type="text" id="1" >
+        </div>
+      </div>
+      <div class="col-6 col-lg-4">
+        <div class="form-group">
+          <label for="">
+            Select Brand
+          </label>
+          <select class="form-control" name="" id="">
+            <option value="" selected>Brand</option>
+            <option value="">Brand</option>
+            <option value="">Brand</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-6 col-lg-4">
+        <div class="form-group">
+          <label for="">
+            Select Model
+          </label>
+          <select class="form-control" name="" id="">
+            <option value="" selected>model</option>
+            <option value="">model</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-6 col-lg-4">
+        <div class="form-group">
+          <label for="">
+            Select Year
+          </label>
+          <select class="form-control" name="" id="">
+            <option value="" selected>year</option>
+            <option value="">year</option>
+          </select>
+        </div>
+      </div>
+<div class="col-12 ">
+  <h5>Upload Up Photos</h5>
+  <div class="profile profile-form">
+    <div class="profile-pic position-relative ">
+      <img class="w-100" src="images/upload.png" alt="" id="photo">
+      <div class="profile-pic-icon">
+          <i class=""></i>
+      </div>
+      <input type="file" id="file" name="" accept="image/*">
+    </div>
+  </div>
+</div>
+
+      <div class="col-6 col-lg-4">
+        <div class="form-group">
+          <label for="">
+            CATEGORIES
+          </label>
+          <select class="form-control" name="" id="">
+            <option value="" selected>sale</option>
+            <option value="">sale</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-6 col-lg-4">
+        <div class="form-group">
+          <label for="">
+            Location
+          </label>
+          <select class="form-control" name="" id="">
+            <option value="" selected>cairo</option>
+            <option value="">cairo</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-6 col-lg-4">
+        <div class="form-group">
+          <label for="">
+            CONDITION
+          </label>
+          <select class="form-control" name="" id="">
+            <option value="" selected>new</option>
+            <option value="">old</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-6 col-lg-4">
+        <div class="form-group">
+          <label for="">
+            TRANSMISSION TYPE
+          </label>
+          <select class="form-control" name="" id="">
+            <option value="" selected>Automatic</option>
+            <option value="">Automatic</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-6 col-lg-4">
+        <div class="form-group">
+          <label for="">
+            FUEL TYPE
+          </label>
+          <select class="form-control" name="" id="">
+            <option value="" selected>Banzine</option>
+            <option value="">Banzine</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-6 col-lg-4">
+        <div class="form-group">
+          <label for="">
+            Color
+          </label>
+          <select class="form-control" name="" id="">
+            <option value="" selected>Black</option>
+            <option value="">Black</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-6 col-lg-4">
+        <div class="form-group">
+          <label for="">
+            ENGINE CAPACITY (CC)
+          </label>
+          <select class="form-control" name="" id="">
+            <option value="" selected>0</option>
+            <option value="">0</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-6 col-lg-4">
+        <div class="form-group">
+          <label for="">
+            PAYMENT OPTIONS
+          </label>
+          <select class="form-control" name="" id="">
+            <option value="" selected>Cash</option>
+            <option value="">Cash</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-6 col-lg-4">
+        <div class="form-group">
+          <label for="">
+            KILOMETERS
+          </label>
+          <select class="form-control" name="" id="">
+            <option value="" selected>0</option>
+            <option value="">0</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="text-center">
+    <a class="btn rounded-pill m-0 main-btn px-5 m-2"type="button" href="">  Publish</a>
+    </div>
+
+  </form>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- jQuery script -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- countrySelect  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/country-select-js/2.1.1/js/countrySelect.min.js"
+      integrity="sha512-criuU34pNQDOIx2XSSIhHSvjfQcek130Y9fivItZPVfH7paZDEdtAMtwZxyPq/r2pyr9QpctipDFetLpUdKY4g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- owl-carousel script -->
+    <script src="js/owl.carousel.min.js"></script>
+
+    <!-- bootstrap script -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- font awesom script -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+      integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- rateyo script -->
+    <script src="js/jquery.rateyo.min.js"></script>
+
+    <!-- aos script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- wow script -->
+    <script src="js/wow.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
